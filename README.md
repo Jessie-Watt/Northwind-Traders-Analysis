@@ -8,7 +8,7 @@ Northwind traders dataset was analysed based on different category of products s
 - [ ]  Importation of the ‘Northwind Traders Dataset’ dataset into Power BI Desktop
 - [ ]  To determine the total quantity ordered, average unit price by product, average quantity ordered, the total discount
 - [ ]  To determine the maximum period required to deliver products.
-- [ ]  To determine the average quantity sold by product name, average freight by country, average sales per year, total unit sold by product catergory, and the freight rate by shipping mode
+- [ ]  To determine the average quantity sold by product name, average freight by country, average sales per year, total unit price by catergory, and freight rate by shipping mode
 - [ ]  A slicer will be used to visualize the trend by different years
 - [ ]  A dashboard to monitor the traders market sales will also be developed dataset.
  
@@ -33,9 +33,17 @@ To obtain the maximum period required for the delivery of goods, a calculated co
 
 The average quantity sold per product was visualized using a table build visual. The average quanity was evaluated by the product name using the _Average_ aggregate _syntax: AVERAGE(column or expression)_. The visual values were formatted in descending order, showing the background colour of the highest average value to be dark green, then the following lower values to be lighter shades of green, Hence this represented top product as 'Schoggi Schokolade'.
 
-The average freight by country was calculated by the _average aggregate function_ syntax: _AVERAGE(column or expression)_, using the Bar Column chart to represent the visual. This visual reported Austria to have the highest freight rate cost for shipping goods to customers, followed by Ireland and USA.
+The average freight by country was calculated by the _average_ aggregate function syntax: _AVERAGE(column or expression)_, using the Bar Column chart to represent the visual. This visual reported Austria to have the highest freight rate cost for shipping goods to customers, followed by Ireland and USA.
 
-The average sales per year required the line chart representation to viusalize the total sales trend across the years, hence the sum aggreagte function was utilized to evaluate this _syntax:SUM(column or expression)_. The Line
+The average sales per year was represented in the line chart visual to show the total sales trend across the years, hence the _sum_ aggreagte function was utilized to evaluate this _syntax:SUM(column or expression)_. The Line chart reported the average sales, to increase across the years. The average sales by month was also considered but it gave a haphazard trend across the line chart reporting.
+
+The total unit price by catergory was visualized using a Bar chart, this pictured the category name that produces the highest unit price sold as beverages, followed by Confections, meat and poultry, then diary products. This was evaluated using the _sum_ aggregate and syntax: _SUM(column or expression)_.
+
+The freight rate by shipping mode was visualize using a donut chart, this evaluated the sum of freight rate for different shipping companies. Three companies were involved in the delivery of products to customers but on evaluation 'United Package' Shipping Company incurred more freight rate compared to other shipping companies, from delivering products from one place to another. The _sum_ function was used to evaluate the Sum of frieght rate by each shipping company.
+
+# Conclusion
+From the total unit price by catergory, the sales of beverages will yield more revenue for the Traders. It was observed that the employee ID 7 and 8, were in charge of the products that took the highest number of days to deliver the items to their customers. Hence they should develop better means, that would not incur more cost but would be very efficient to transport goods to customers quickly and effieciently.
+It was also observed that transporting more goods to Austria will increase the freight rate on the Northwind traders. 
 
 
 
