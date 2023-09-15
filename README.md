@@ -1,12 +1,12 @@
 # NORTHWIND-TRADERS-ANALYSIS
 
 # **Introduction**
-Northwind traders dataset was analysed based on different category of products sold to different companys within Europe, North America and South America. The total quantity purchased by these countries, their order details, the shipping mode to different countries, freight rate and more factors will be considered and analysed to give a better meaning and view of the Northwind traders sales.
+Northwind traders dataset was analysed based on the different categories of products sold to different companies within Europe, North America and South America. The total quantity purchased by these countries, their order details, the shipping mode to different countries, freight rate and more factors will be considered and analysed to give a better meaning and view of the Northwind traders sales analysis.
 
 
 # **Activity**
-- [ ]  Importation of the ‘Northwind Traders Dataset’ dataset into Power BI Desktop
-- [ ]  To determine the total quantity ordered, average unit price by product, average quantity ordered, the total discount
+- [ ]  Importation of Northwind Traders Dataset into Power BI Desktop
+- [ ]  To determine the total quantity of products ordered, average unit price by product, average quantity ordered, the total discount
 - [ ]  To determine the maximum period required to deliver products.
 - [ ]  To determine the average quantity sold by product name, average freight by country, average sales per year, total unit price by catergory, and freight rate by shipping mode
 - [ ]  A slicer will be used to visualize the trend by different years
